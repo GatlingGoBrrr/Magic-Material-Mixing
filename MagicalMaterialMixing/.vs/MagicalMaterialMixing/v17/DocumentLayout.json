@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\mcmin\\Magical Material Mixing\\Magical-Material-Mixing\\MagicalMaterialMixing\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{B8F3A3F1-EC44-7D6F-387F-2810511042A8}|Assembly-CSharp.csproj|c:\\users\\mcmin\\magical material mixing\\magical-material-mixing\\magicalmaterialmixing\\assets\\elementcombiner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8F3A3F1-EC44-7D6F-387F-2810511042A8}|Assembly-CSharp.csproj|solutionrelative:assets\\elementcombiner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{B8F3A3F1-EC44-7D6F-387F-2810511042A8}|Assembly-CSharp.csproj|c:\\users\\mcmin\\magical material mixing\\magical-material-mixing\\magicalmaterialmixing\\assets\\dragdrop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B8F3A3F1-EC44-7D6F-387F-2810511042A8}|Assembly-CSharp.csproj|solutionrelative:assets\\dragdrop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -23,19 +27,32 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "ElementCombiner.cs",
+              "DocumentMoniker": "C:\\Users\\mcmin\\Magical Material Mixing\\Magical-Material-Mixing\\MagicalMaterialMixing\\Assets\\ElementCombiner.cs",
+              "RelativeDocumentMoniker": "Assets\\ElementCombiner.cs",
+              "ToolTip": "C:\\Users\\mcmin\\Magical Material Mixing\\Magical-Material-Mixing\\MagicalMaterialMixing\\Assets\\ElementCombiner.cs",
+              "RelativeToolTip": "Assets\\ElementCombiner.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAABRAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-24T01:42:45.011Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "DragDrop.cs",
               "DocumentMoniker": "C:\\Users\\mcmin\\Magical Material Mixing\\Magical-Material-Mixing\\MagicalMaterialMixing\\Assets\\DragDrop.cs",
               "RelativeDocumentMoniker": "Assets\\DragDrop.cs",
               "ToolTip": "C:\\Users\\mcmin\\Magical Material Mixing\\Magical-Material-Mixing\\MagicalMaterialMixing\\Assets\\DragDrop.cs",
               "RelativeToolTip": "Assets\\DragDrop.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAAAAB8AAAAHAAAAAAAAAA==",
+              "ViewState": "AgIAABYAAAAAAAAAAABBwB8AAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-24T00:22:37.489Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "DragDropScript.cs",
               "DocumentMoniker": "C:\\Users\\mcmin\\Magical Material Mixing\\Magical-Material-Mixing\\MagicalMaterialMixing\\Assets\\ignore_RandomAssets\\DragDropScript.cs",
               "RelativeDocumentMoniker": "Assets\\ignore_RandomAssets\\DragDropScript.cs",

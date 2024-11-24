@@ -64,6 +64,7 @@
     <Compile Include="Assets\DragDrop.cs" />
     <Compile Include="Assets\ignore_RandomAssets\DragDropScript.cs" />
     <Compile Include="Assets\CombineElementsScript.cs" />
+    <Compile Include="Assets\ElementCombiner.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
