@@ -5,10 +5,22 @@ public class DragDrop : MonoBehaviour
     public GameObject gameObject;
 
     public Collider2D collider2D;
+
+    public ElementCombiner elementCombiner;
+
+    private GameObject collidedObject;
     
     Vector3 mousePositionOffset;
 
+
+    //Get the elementCombiner class from LogicManager so that we can use the CombineElements function
+    private void Start()
+    {
+        elementCombiner = GameObject.FindGameObjectWithTag("LogicManager").GetComponent<ElementCombiner>();
+    }
+
     //obtains world mouse position so that it can be used in other functions requiring world space instead of screen space
+
     private Vector3 GetWorldMousePosition()
     {
         return Camera.main.ScreenToWorldPoint(Input.mousePosition);
@@ -27,8 +39,16 @@ public class DragDrop : MonoBehaviour
         transform.position = GetWorldMousePosition() + mousePositionOffset;
     }
 
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        collidedObject = collision.gameObject;
+    }
+
     private void OnMouseUp()
     {
-        Debug.Log("Is touching: " + collider2D.IsTouchingLayers());
+        if(collider2D.IsTouchingLayers())
+        {
+            elementCombiner.CombineElements(gameObject, collidedObject);
+        }
     }
 }
