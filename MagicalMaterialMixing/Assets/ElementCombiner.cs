@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class ElementCombiner : MonoBehaviour
 {
@@ -14,7 +15,10 @@ public class ElementCombiner : MonoBehaviour
         {
             Destroy(element1);
             Destroy(element2);
-            Instantiate(newElement, new Vector3(0, 0, 0), transform.rotation);
+            Instantiate(newElement, new Vector3(0, 0, -0.1f), transform.rotation);
+        } else
+        {
+            SceneManager.LoadScene("ExploreDeath");
         }
 
         

@@ -24,7 +24,7 @@ public class DialogManager : MonoBehaviour
         else if (scene.name == "Dialog1_2")
         {
             sr = File.OpenText("..\\MagicalMaterialMixing\\Assets\\Scripts\\dialog1_2.txt");
-            Dialog.text = "--You hear the garage door open.--";
+            Dialog.text = "Oh, it looks like I made Harlanite!";
         }
         else if (scene.name == "Dialog1_3")
         {
