@@ -15,7 +15,8 @@ public class ElementCombiner : MonoBehaviour
         {
             Destroy(element1);
             Destroy(element2);
-            Instantiate(newElement, new Vector3(0, 0, -0.1f), transform.rotation);
+            //Instantiate(newElement, new Vector3(0, 0, -0.1f), transform.rotation);
+            SceneManager.LoadScene("Dialog1_2");
         } else
         {
             SceneManager.LoadScene("ExploreDeath");

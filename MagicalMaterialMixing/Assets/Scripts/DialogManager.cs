@@ -10,12 +10,14 @@ public class DialogManager : MonoBehaviour
     private string s;
     public TextMeshProUGUI Dialog;
     private StreamReader sr;
+    
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     // Dialog.text =
 
     void Start()
     {
         Scene scene = SceneManager.GetActiveScene();
+
         if (scene.name == "Dialog1_1")
         {
             sr = File.OpenText("..\\MagicalMaterialMixing\\Assets\\Scripts\\dialog.txt");
@@ -58,6 +60,8 @@ public class DialogManager : MonoBehaviour
     // "C:\Users\Joy\Documents\GitHub\Magic-Material-Mixing\MagicalMaterialMixing\Assets\Scripts\dialog.txt"
     void Update()
     {
+        Scene scene = SceneManager.GetActiveScene();
+
         if (Input.GetMouseButtonDown(0))
         {
             //Debug.Log("Click");
@@ -68,7 +72,15 @@ public class DialogManager : MonoBehaviour
             }
             else
             {
-                SceneManager.LoadScene("ExploreScene");
+                if (scene.name == "Dialog1_1")
+                {
+                    SceneManager.LoadScene("ExploreScene");
+                }
+                else if (scene.name == "Dialog1_2")
+                {
+                    SceneManager.LoadScene("SampleScene");
+                }
+                
             }
             
         }

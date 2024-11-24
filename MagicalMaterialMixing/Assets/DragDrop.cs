@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class DragDrop : MonoBehaviour
 {
@@ -6,7 +7,8 @@ public class DragDrop : MonoBehaviour
 
     public Collider2D collider2D;
 
-    public TestCombiner elementCombiner;
+    public ElementCombiner elementCombiner;
+    public TestCombiner testCombiner;
 
     private GameObject collidedObject;
     
@@ -16,7 +18,17 @@ public class DragDrop : MonoBehaviour
     //Get the elementCombiner class from LogicManager so that we can use the CombineElements function
     private void Start()
     {
-        elementCombiner = GameObject.FindGameObjectWithTag("LogicManager").GetComponent<TestCombiner>();
+        Scene scene = SceneManager.GetActiveScene();
+        if (scene.name == "ExploreScene")
+        {
+            elementCombiner = GameObject.FindGameObjectWithTag("LogicManager").GetComponent<ElementCombiner>();
+        }
+        
+        else
+        {
+            testCombiner = GameObject.FindGameObjectWithTag("LogicManager").GetComponent<TestCombiner>();
+        }
+            
     }
 
     //obtains world mouse position so that it can be used in other functions requiring world space instead of screen space
