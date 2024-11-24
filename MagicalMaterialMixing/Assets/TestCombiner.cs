@@ -5,7 +5,7 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class ElementCombiner : MonoBehaviour
+public class TestCombiner : MonoBehaviour
 {
     public GameObject newElement;
 

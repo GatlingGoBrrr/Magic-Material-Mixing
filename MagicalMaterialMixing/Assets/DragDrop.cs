@@ -6,7 +6,7 @@ public class DragDrop : MonoBehaviour
 
     public Collider2D collider2D;
 
-    public ElementCombiner elementCombiner;
+    public TestCombiner elementCombiner;
 
     private GameObject collidedObject;
     
@@ -16,7 +16,7 @@ public class DragDrop : MonoBehaviour
     //Get the elementCombiner class from LogicManager so that we can use the CombineElements function
     private void Start()
     {
-        elementCombiner = GameObject.FindGameObjectWithTag("LogicManager").GetComponent<ElementCombiner>();
+        elementCombiner = GameObject.FindGameObjectWithTag("LogicManager").GetComponent<TestCombiner>();
     }
 
     //obtains world mouse position so that it can be used in other functions requiring world space instead of screen space
