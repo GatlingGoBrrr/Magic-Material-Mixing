@@ -66,6 +66,7 @@
     <Compile Include="Assets\CombineElementsScript.cs" />
     <Compile Include="Assets\Scripts\DialogManager.cs" />
     <Compile Include="Assets\exploreDialogManager.cs" />
+    <Compile Include="Assets\TestCombiner.cs" />
     <Compile Include="Assets\ElementCombiner.cs" />
   </ItemGroup>
   <ItemGroup>
