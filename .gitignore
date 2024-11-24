@@ -13,3 +13,5 @@ MagicalMaterialMixing/.vs/MagicalMaterialMixing/v17/DocumentLayout.backup.json
 MagicalMaterialMixing/.vs/MagicalMaterialMixing/v17/DocumentLayout.json
 /MagicalMaterialMixing/.vs
 *.meta
+MagicalMaterialMixing/Assembly-CSharp.csproj
+MagicalMaterialMixing/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache
