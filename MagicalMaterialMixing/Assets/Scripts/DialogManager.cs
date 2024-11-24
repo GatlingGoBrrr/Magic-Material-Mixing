@@ -18,37 +18,37 @@ public class DialogManager : MonoBehaviour
         Scene scene = SceneManager.GetActiveScene();
         if (scene.name == "Dialog1_1")
         {
-            sr = File.OpenText("C:\\Users\\Joy\\Documents\\GitHub\\Magic-Material-Mixing\\MagicalMaterialMixing\\Assets\\Scripts\\dialog.txt");
+            sr = File.OpenText("..\\MagicalMaterialMixing\\Assets\\Scripts\\dialog.txt");
             Dialog.text = "--You enter your uncle's garage.--";
         }
         else if (scene.name == "Dialog1_2")
         {
-            sr = File.OpenText("C:\\Users\\Joy\\Documents\\GitHub\\Magic-Material-Mixing\\MagicalMaterialMixing\\Assets\\Scripts\\dialog1_2.txt");
+            sr = File.OpenText("..\\MagicalMaterialMixing\\Assets\\Scripts\\dialog1_2.txt");
             Dialog.text = "--You hear the garage door open.--";
         }
         else if (scene.name == "Dialog1_3")
         {
-            sr = File.OpenText("C:\\Users\\Joy\\Documents\\GitHub\\Magic-Material-Mixing\\MagicalMaterialMixing\\Assets\\Scripts\\dialog1_3.txt");
+            sr = File.OpenText("..\\MagicalMaterialMixing\\Assets\\Scripts\\dialog1_3.txt");
             Dialog.text = "--You successfully concoct Harlanite.--";
         }
         else if (scene.name == "Dialog2_1")
         {
-            sr = File.OpenText("C:\\Users\\Joy\\Documents\\GitHub\\Magic-Material-Mixing\\MagicalMaterialMixing\\Assets\\Scripts\\dialog2_1.txt");
+            sr = File.OpenText("..\\MagicalMaterialMixing\\Assets\\Scripts\\dialog2_1.txt");
             Dialog.text = "--The garage door opens again.--";
         }
         else if (scene.name == "Dialog2_2")
         {
-            sr = File.OpenText("C:\\Users\\Joy\\Documents\\GitHub\\Magic-Material-Mixing\\MagicalMaterialMixing\\Assets\\Scripts\\dialog2_2.txt");
+            sr = File.OpenText("..\\MagicalMaterialMixing\\Assets\\Scripts\\dialog2_2.txt");
             Dialog.text = "--You made some Decstone.--";
         }
         else if (scene.name == "Dialog3_1")
         {
-            sr = File.OpenText("C:\\Users\\Joy\\Documents\\GitHub\\Magic-Material-Mixing\\MagicalMaterialMixing\\Assets\\Scripts\\dialog3_1.txt");
+            sr = File.OpenText("..\\MagicalMaterialMixing\\Assets\\Scripts\\dialog3_1.txt");
             Dialog.text = "--Yet again, the garage door opens.--";
         }
         else if (scene.name == "Dialog3_2")
         {
-            sr = File.OpenText("C:\\Users\\Joy\\Documents\\GitHub\\Magic-Material-Mixing\\MagicalMaterialMixing\\Assets\\Scripts\\dialog3_2.txt");
+            sr = File.OpenText("..\\MagicalMaterialMixing\\Assets\\Scripts\\dialog3_2.txt");
             Dialog.text = "--You demonstrate the creation of Joylerian to Jack.--";
         }
 
