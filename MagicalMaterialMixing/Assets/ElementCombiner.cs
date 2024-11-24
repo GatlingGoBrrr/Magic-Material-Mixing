@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class ElementCombiner : MonoBehaviour
 {
@@ -22,10 +23,11 @@ public class ElementCombiner : MonoBehaviour
         {
             Instantiate(newElement, new Vector3(0, 0, 0), transform.rotation);
             newElement.GetComponent<SpriteRenderer>().enabled = true;
+
         }
         else
         {
-            Debug.Log("poof");
+            SceneManager.LoadScene("Death");
         }
     
     
