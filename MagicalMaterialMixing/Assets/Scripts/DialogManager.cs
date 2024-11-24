@@ -66,6 +66,10 @@ public class DialogManager : MonoBehaviour
             {
                 Dialog.text = s;
             }
+            else
+            {
+                SceneManager.LoadScene("ExploreScene");
+            }
             
         }
     }
